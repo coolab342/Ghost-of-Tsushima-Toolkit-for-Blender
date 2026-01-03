@@ -76,8 +76,7 @@ This tool works by **injecting** data into pre-allocated game buffers. It does n
 *   **Tip:** Use the *Auto-Match* feature or Blender's *Decimate* modifier to reduce your poly count until it fits.
 
 ### 2. Supported Files
-*   This tool is optimized for **Character Models** (files typically starting with `hero_...`).
-*   It is **not** tested on static environment meshes, terrain, or special effects. Stick to armors, weapons, and character bodies for the best results.
+*   This tool is for **Character Models** (files typically starting with `hero_...`).
 
 ### 3. Tools
 
