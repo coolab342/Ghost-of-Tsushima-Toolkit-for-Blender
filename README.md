@@ -65,6 +65,20 @@ If you enjoy this tool and want to support its development:
 7. Click **Inject / Export Mod**.
    - A new folder with the modded files will be created automatically.
 
+## ⚠️ Important Limitations
+
+Before you start modding, please be aware of these technical constraints:
+
+### 1. File Size Limits (Vertex Count)
+This tool works by **injecting** data into pre-allocated game buffers. It does not resize the memory blocks.
+*   Your custom mesh **CANNOT** have more vertices or triangles than the original sub-mesh you are replacing.
+*   If your mesh is too large, the tool will block the injection to prevent file corruption.
+*   **Tip:** Use the *Auto-Match* feature or Blender's *Decimate* modifier to reduce your poly count until it fits.
+
+### 2. Supported Files
+*   This tool is optimized for **Character Models** (files typically starting with `hero_...`).
+*   It is **not** tested on static environment meshes, terrain, or special effects. Stick to armors, weapons, and character bodies for the best results.
+
 ### 3. Tools
 
 #### Texture Inspector
