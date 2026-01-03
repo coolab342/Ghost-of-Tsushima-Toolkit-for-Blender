@@ -103,7 +103,7 @@ This project is licensed under the **MIT License**.
 **Attribution Requirement:**
 You are free to use, modify, and redistribute this software (even commercially). However, you **MUST** explicitly credit the original author (**Dave349234**) and link back to the original [Nexus Mods Profile](https://www.nexusmods.com/profile/Dave349234) or [Ko-fi Page](https://ko-fi.com/dave349234).
 
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](https://github.com/coolab342/Ghost-of-Tsushima-Toolkit-for-Blender/blob/main/LICENSE.txt) file for details.
 
 ---
 
